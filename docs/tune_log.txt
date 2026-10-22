@@ -1,0 +1,29 @@
+paper beta=100000 rho=1.0: long 0.000117 short 0.001456
+paper beta=100000 rho=0.8: long 0.000235 short 0.001571
+paper beta=300000 rho=1.0: long 0.000079 short 0.001294
+paper beta=300000 rho=0.8: long 0.000102 short 0.001322
+paper beta=1e+06 rho=1.0: long 0.000087 short 0.001294
+paper beta=1e+06 rho=0.8: long 0.000086 short 0.001288
+paper beta=3e+06 rho=1.0: long 0.000095 short 0.001303
+paper beta=3e+06 rho=0.8: long 0.000095 short 0.001303
+paper beta=1e+07 rho=1.0: long 0.000099 short 0.001313
+paper beta=1e+07 rho=0.8: long 0.000103 short 0.001311
+kappa=1: own 0.000320 (nocheck 0.000320) foreign 0.007048
+kappa=4: own 0.000320 (nocheck 0.000320) foreign 0.007048
+kappa=16: own 0.000320 (nocheck 0.000320) foreign 0.007048
+kappa=64: own 0.000326 (nocheck 0.000320) foreign 0.007047
+copy rho=1.0 thr=0.1: long 0.000101 short 0.001326
+copy rho=1.0 thr=0.5: long 0.000101 short 0.001326
+copy rho=1.0 thr=0.9: long 0.000101 short 0.003575
+copy rho=0.8 thr=0.1: long 0.000108 short 0.001327
+copy rho=0.8 thr=0.5: long 0.000106 short 0.003425
+copy rho=0.8 thr=0.9: long 0.000287 short 0.003766
+{
+  "beta": 300000.0,
+  "rho": 1.0,
+  "kappa": 64.0,
+  "sigma": 0.02,
+  "smooth": 4.0,
+  "copy_rho": 1.0,
+  "copy_threshold": 0.1
+}
